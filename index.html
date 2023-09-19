@@ -14,9 +14,9 @@
 </head>
 <body>
     <header>
-        <div class="fondoHeader">
+        <nav class="fondoHeader">
             <h1>MOZZABAR</h1>
-                <div class="link">
+                <div class="">
                     <a href="">Home</a>
                     <a href="">Concepto</a>
                     <a href="">Fotos</a>
@@ -24,7 +24,7 @@
                     <a href="">Reservas</a>
                     <a href="">Blog</a>
                 </div>   
-        </div>
+            </nav>
     </header>    
     <main>
         <section>
@@ -57,15 +57,15 @@
                     <img class="" src="./assets/elephant.png"/>  
                 </div>
             </div>
-            <aside>
+            <aside class="buttonDesayunos">
                 <h2>CARTA</h2>
                 <ul>
-                    <li><a href="">DESAYUNOS</a></li>
-                    <li><a href="">CARTA</a></li>
-                    <li><a href="">COKTAILS</a></li>
+                    <a href="">DESAYUNOS</a>
+                    <a href="">CARTA</a>
+                    <a href="">COKTAILS</a>
                 </ul>
             </aside>
-        <section>
+        <section class="">
             <article class="menu1">
                 <div>
                     <h3>DESAYUNOS</h3>
@@ -122,12 +122,12 @@
             </article>
         </section>
         <section>
-            <button type="submit">VER CARTA DE DESAYUNOS</button>
+            <button class="buttonDesayunos" type="submit">VER CARTA DE DESAYUNOS</button><br>
         </section>
-        <section>
+        <section class="sectionReserve">
             <article>
                 <form action="" method="get">
-                    <fieldset>
+                    <fieldset class="reserve">
                         <legend>PERSONAS</legend>
                             <input type="number" name="Persons" id="Persons" placeholder="Num de personas">
                         <legend>FECHA Y HORA</legend>
@@ -137,13 +137,32 @@
                                 <option value="valor1">valor1</option>
                                 <option value="valor2">valor2</option>
                                 <option value="valor3">valor3</option>
-                            </select>
+                            </select><br>
+                            <button>RESERVAR</button>
                     </fieldset>
                 </form> 
             </article>
             <article>
                 <h2>MOZZABAR</h2>
                 <h2>FOOD & DRINKS</h2>
+            </article>
+        </section>
+        <section>
+            <article class="blogOk">
+                <img src="./assets/linea.png"/>
+                <h3>BLOG</h3>
+                <img src="./assets/linea.png"/>
+            </article>
+            <article class="sectionBlog">
+                <a href="">
+                    <img src="./assets/Y2K_and_Bbno$_-_Lalala.png"/>
+                </a>
+                <a href="">
+                    <img src="./assets/Y2K_and_Bbno$_-_Lalala.png"/>
+                </a>
+                <a href="">
+                    <img src="./assets/Y2K_and_Bbno$_-_Lalala.png"/>
+                </a>   
             </article>
         </section>
     </main>

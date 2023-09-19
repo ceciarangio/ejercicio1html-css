@@ -1,12 +1,9 @@
+
 .fondoHeader{
     background-color: black;
     color: white;
 }
 
-.link{
-    flex-direction: row;
-    justify-content: flex-end;
-}
 
 .mainFirst{
     background-image: url(./assets/bar.png);
@@ -80,7 +77,10 @@
     align-items: center;
 }
 
-
+.sectionMenu{
+    display: flex;
+    justify-content: space-between;
+}
 .menu1{
     display: inline-block;
     position: absolute;
@@ -90,4 +90,41 @@
 .menu2{
     display: inline-block;
     position: relative;
+    float: right;
+}
+
+.sectionBlog{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+.buttonDesayunos{
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+.reserve{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+}
+
+.sectionReserve{
+    display: flex;
+    justify-content: space-around;
+    align-content:space-between;
+    background-color: blueviolet;
+}
+
+h3,img{
+    display:inline-block;  
+}
+
+.blogOk{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
