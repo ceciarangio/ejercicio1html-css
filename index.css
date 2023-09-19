@@ -2,3 +2,90 @@
     background-color: black;
     color: white;
 }
+
+.link{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mainFirst{
+    background-image: url(./assets/bar.png);
+    align-content: center;
+    border: 2px solid #000;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    padding: 300px;
+}
+
+.colorDiv{
+    background-color: yellow;
+}
+
+.hs{
+    font-family: 'Fuggles', cursive;
+    font-size: 100px;
+}
+
+.h22{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.pmain{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.boxLetuce{
+        width: 300px;
+        height: 200px;
+        background-color: black;
+        color: white;
+        padding: 35px;
+        margin: 52px 30px 40px 50px;
+        margin-top: 200px;
+        position:relative;
+}
+
+.letuce{
+    width: 140px;
+    height: auto;
+    position: absolute;
+    top: -75px;
+    left: -75px;
+    opacity: 0.9;
+    transform: rotate(20deg);  
+}
+.drink{
+    width: 170px;
+    height: auto;
+    position: absolute;
+    top: -90px;
+    left: 290px;
+    opacity: 1;
+    transform: rotate(-20deg);
+}
+
+.mainBox{
+    background-image: url(./assets/descarga.jpg);
+    align-content: center;
+    border: 2px solid #000;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu1{
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+}
+
+.menu2{
+    display: inline-block;
+    position: relative;
+}
