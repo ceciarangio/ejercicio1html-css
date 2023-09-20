@@ -99,17 +99,7 @@
     display: flex;
     justify-content: space-between;
 }
-.menu1{
-    display: inline-block;
-    position: absolute;
-    left: 200px;
-}
 
-.menu2{
-    display: inline-block;
-    position: relative;
-    float: right;
-}
 
 .sectionBlog{
     display: flex;
